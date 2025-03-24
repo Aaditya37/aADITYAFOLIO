@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <svg width="110" height="50" viewBox="0 0 100 100">
+                <polygon points="50,10 90,30 90,70 50,90 10,70 10,30" fill="none" stroke="var(--accent)" stroke-width="4" class="logo-shape" />
+                <text x="35" y="60" fill="var(--accent)" font-size="28" font-weight="bold">AADITYA</text>
+            </svg>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="mobile-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="glowing-text">Aaditya</span></h1>
+            <div class="typewriter">
+                <span id="typewriter-text"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description">Transforming ideas into exceptional digital experiences</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://t.me/+918271571987" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-kumar-507233330?trk=contact-info" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/+918271571987" class="social-icon"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.instagram.com/_aaditya37/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="shape-bg"></div>
+            <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/p_2649539360%20(2).jpg" alt="Aaditya" class="profile-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About <span class="accent">Me</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20113233.png" alt="About Aaditya">
+                <div class="experience-badge">
+                    <span class="years">3+</span>
+                    <span class="text">Years Experience</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Aaditya, a passionate web developer with expertise in creating stunning, functional websites and web applications. I blend technical skills with creative design to build seamless digital experiences.</p>
+                <p>With over 3 years of experience in the field, I've worked with various technologies and frameworks to deliver high-quality web solutions that exceed client expectations.</p>
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h3>Name</h3>
+                            <p>Aaditya Sharma</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>yng.aaditya@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Gangtok, Sikkim, India</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h3>Availability</h3>
+                            <p>Freelance Available</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/aditya-kumar-507233330?trk=contact-info" class="btn primary-btn">Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>My <span class="accent">Skills</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-aos="fade-up">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h4>HTML5</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 95%"></div>
+                            <span class="progress-text">95%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h4>CSS3</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                            <span class="progress-text">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h4>JavaScript</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                            <span class="progress-text">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h4>React</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                            <span class="progress-text">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-aos="fade-up">
+                        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                        <h4>Node.js</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                            <span class="progress-text">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon"><i class="fab fa-php"></i></div>
+                        <h4>PHP</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                            <span class="progress-text">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>MySQL</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                            <span class="progress-text">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h4>MongoDB</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                            <span class="progress-text">70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Tools & Others</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-aos="fade-up">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h4>Git</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                            <span class="progress-text">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                        <h4>Figma</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                            <span class="progress-text">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h4>Responsive Design</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 95%"></div>
+                            <span class="progress-text">95%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon"><i class="fas fa-search"></i></div>
+                        <h4>SEO</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                            <span class="progress-text">70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>My <span class="accent">Projects</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Apps</button>
+            <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            <button class="filter-btn" data-filter="ui">UI Design</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20113632.png" alt="E-commerce Website">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>A full-featured online store with product management, cart functionality, and payment integration.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="mobile">
+                <div class="project-img">
+                    <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20114544.png" alt="Fitness Tracker App">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Fitness Tracker App</h3>
+                    <p>Mobile application for tracking workouts, nutrition, and fitness progress with data visualization.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="ui">
+                <div class="project-img">
+                    <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20114949.png" alt="Dashboard UI Design">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Analytics Dashboard</h3>
+                    <p>Modern UI design for a data analytics platform with customizable widgets and dark/light themes.</p>
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Illustrator</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="web">
+                <div class="project-img">
+                    <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20115500.png" alt="Real Estate Website">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Real Estate Portal</h3>
+                    <p>Property listing website with search filters, map integration, and virtual tour capabilities.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Laravel</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="mobile">
+                <div class="project-img">
+                    <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20115857.png" alt="Food Delivery App">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Food Delivery App</h3>
+                    <p>Mobile app for ordering food with real-time tracking, payment processing, and restaurant reviews.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>Google Maps API</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="ui">
+                <div class="project-img">
+                    <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20120147.png" alt="Banking App UI">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://t.me/+918271571987" class="project-link"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Banking App UI Kit</h3>
+                    <p>Comprehensive UI design system for a banking application focusing on accessibility and security.</p>
+                    <div class="project-tech">
+                        <span>Sketch</span>
+                        <span>InVision</span>
+                        <span>Principle</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-more">
+            <a href="https://t.me/+918271571987" class="btn secondary-btn">View All Projects <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>My <span class="accent">Services</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-aos="zoom-in">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Custom website and web application development using modern frameworks and technologies. Clean code, responsive design, and optimal performance.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Mobile App Development</h3>
+                <p>Cross-platform mobile application development for iOS and Android. Intuitive interfaces, smooth performance, and native-like experience.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>User-focused interface design that balances aesthetics with functionality. Wireframing, prototyping, and comprehensive design systems.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Robust server-side solutions, API development, database design, and cloud integration. Secure, scalable, and efficient backend systems.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>SEO Optimization</h3>
+                <p>Search engine optimization to improve visibility and ranking. On-page optimization, technical SEO, and performance enhancements.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="service-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Maintenance & Support</h3>
+                <p>Ongoing website maintenance, updates, security monitoring, and technical support. Keeping your digital presence running smoothly.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>Client <span class="accent">Testimonials</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-track">
+                <div class="testimonial">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Aaditya delivered our e-commerce platform ahead of schedule with all the features we needed. His attention to detail and technical expertise made our project a success. Highly recommended!</p>
+                    <div class="testimonial-author">
+                        <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20121054.png" alt="Client">
+                        <div class="author-info">
+                            <h4>Kritika </h4>
+                            <p>CEO, StyleBoutique</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Working with Aaditya was a pleasure. He understood our requirements perfectly and transformed our outdated website into a modern, responsive platform that has significantly improved our user engagement.</p>
+                    <div class="testimonial-author">
+                        <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20121654.png" alt="Client">
+                        <div class="author-info">
+                            <h4>Vikas Sharma</h4>
+                            <p>Marketing Director, TechSolutions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Aaditya's expertise in mobile app development helped us launch our startup's flagship product. His work was clean, well-documented, and the app performance exceeded our expectations!</p>
+                    <div class="testimonial-author">
+                        <img src="https://assets.onecompiler.app/43cmz2vhh/43cnj2q92/Screenshot%202025-03-24%20120617.png" alt="Client">
+                        <div class="author-info">
+                            <h4>Khushii Tiwari </h4>
+                            <p>Founder, FitLife App</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="control-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="control-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In <span class="accent">Touch</span></h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's work together</h3>
+                <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>yng.aaditya@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>+91 827 157 1987</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Gangtok, Sikkim, India</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://t.me/+918271571987" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-kumar-507233330?trk=contact-info" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://t.me/+918271571987" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/_aaditya37/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <h3 class="glowing-text">Aaditya</h3>
+                <p>Web Developer & Designer</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to my newsletter for the latest updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Aaditya. All Rights Reserved.</p>
+            <p class="footer-credits">Designed & Developed with <i class="fas fa-heart"></i> by Aaditya & She/Her  </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
